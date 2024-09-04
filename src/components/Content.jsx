@@ -8,35 +8,50 @@ import bitmap5 from '../assets/Bitmap(5).png'
 
 const Content = () => {
   return (
-    <div>
-     
-      <div className='relative'>
-        <hr/>
-        <div>
-          <div>HTML</div>
-          <p>4 Years Experience</p>
+    <div className=' space-x-0 md:space-x-8 '>
+      <div className='relative '>
+        < div className='flex justify-center py-0 md:py-12 mb-6 md:mb-0   '>
+        < hr className='w-[300px] md:w-[750px]' />
         </div>
-        <div>
-          <div>CSS</div>
-          <p>4 Years Experience</p>
+        <div className=' flex flex-col  items-center md:items-start space-x-0 md:space-x-8 '>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between space-x-0 md:space-x-80 my-0 md:my-5'>
+        
+        <div className='mb-4 md:mb-0 lg:mb-0 '>
+          <h2 className=' text-2xl md:text-5xl font-bold '>HTML</h2>
+          <p className=' my-2 md:my-6 '>4 Years Experience</p>
         </div>
-        <div>
-          <div>Javascript</div>
-          <p>4 Years Experience</p>
+        <div className='mb-4 md:mb-0 lg:mb-0 '>
+          <h2 className=' text-2xl md:text-5xl font-bold sp '>CSS</h2>
+          <p className=' my-2 md:my-6 '>4 Years Experience</p>
         </div>
-        <div>
-          <div>Accessibility</div>
-          <p>4 Years Experience</p>
         </div>
-        <div>
-          <div>React</div>
-          <p>3 Years Experience</p>
+        
+        <div className='flex flex-col md:flex-row justify-center md:justify-between space-x-0 md:space-x-56 my-0 md:my-5'>
+        <div className='mb-4 md:mb-0 lg:mb-0 '>
+          <h2 className=' text-2xl md:text-5xl font-bold '>Javascript</h2>
+          <p className=' my-2 md:my-6 '>4 Years Experience</p>
         </div>
-        <div>
-          <div>Sass</div>
-          <p>3 Years Experience</p>
+          <div>
+        <div className='mb-4 md:mb-0 lg:mb-0 '>
+          <h2 className=' text-2xl md:text-5xl font-bold sp '>Accessibility</h2>
+          <p className=' my-2 md:my-6 '>4 Years Experience</p>
         </div>
-      <hr/>
+        </div>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between space-x-0 md:space-x-80 my-0 md:my-5'>
+        <div className='mb-4 md:mb-0 lg:mb-0 '>
+          <h2 className=' text-2xl md:text-5xl font-bold '>React</h2>
+          <p className=' my-2 md:my-6 '>3 Years Experience</p>
+        </div>
+        <div className='mb-4 md:mb-0 lg:mb-0 '>
+          <h2 className=' text-2xl md:text-5xl font-bold '>Sass</h2>
+          <p className=' my-2 md:my-6 '>3 Years Experience</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        < div className='flex justify-center '>
+        < hr className='w-[300px]' />
+        </div>
       </div>
       <div>
         <h2>Projects</h2>
@@ -56,7 +71,7 @@ const Content = () => {
       </div>
       <div>
         <div>
-        <p>VIEW PROJEC</p>
+        <p>VIEW PROJECT</p>
         <hr/>
         </div>
         <div>
