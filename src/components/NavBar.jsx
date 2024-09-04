@@ -14,10 +14,10 @@ const NavBar = () => {
     <h1 className='text-white text-2xl font-bold mb-2  md:mb-0 md:mr-8 mt-0 md:mt-8 px-0 md:px-8'>adamkeyes</h1>
    
     <div className='relative w-[200px]  md:w-[350px] lg:w-[450px]  h-[400px] md:h-[650px]'>
-      <img src={image1} alt=''  className=' bg-[red] w-full h-full object-cover' />
+      <img src={image1} alt=''  className=' w-full h-full object-cover' />
       
       <div className='absolute inset-0 flex flex-col items-center md:items-end justify-start mt-0 md:mt-8  p-2'>
-        <div className='flex items-center space-x-2'>
+        <div className='flex items-center space-x-4 md/lg:space-x-8'>
           <a href="https://github.com/yourusername" aria-label="GitHub">
             <FiGithub className='text-white text-xl' />
           </a>
@@ -40,7 +40,7 @@ const NavBar = () => {
       </div>
       <p className='w-[300px] md:w-[350px]  '>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
      <div>
-      <h2 className='text-white lg:text-[green] '>CONTACT ME</h2>
+      <h2 className='text-white lg:text-[green] font-normal lg:font-bold '>CONTACT ME</h2>
       <hr className='border-[green] border-t-2 mt-2 '/>
       </div>
       </div>
