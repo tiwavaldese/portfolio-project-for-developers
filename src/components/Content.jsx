@@ -9,14 +9,8 @@ import bitmap5 from '../assets/Bitmap(5).png'
 const Content = () => {
   return (
     <div>
-      <h1>Nice to meet you! I’m Adam Keyes.</h1>
-      <hr/>
-      <p>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
-     <div>
-      <h2>CONTACT ME</h2>
-      <hr/>
-      </div>
-      <div>
+     
+      <div className='relative'>
         <hr/>
         <div>
           <div>HTML</div>
