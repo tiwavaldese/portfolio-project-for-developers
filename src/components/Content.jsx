@@ -61,11 +61,22 @@ const Content = () => {
         </div>
         <div className='flex flex-col md:flex-row px-3 lg:px-16  gap-3 lg:gap-1 lg:flex-row justify-between'>
           <div className='flex flex-col'>
-        <div className='flex justify-center '>
-        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap}/>
+        <div className='flex justify-center relative '>
+        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] transition object-cover duration-300 ease-in-out hover:shadow-xl ' src={bitmap}/>
+        <div 
+      className='absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 lg:hover:opacity-100 transition-opacity duration-300 ease-in-out'>
+<div>
+      <span className='text-white text-xl'>VIEW PROJECT</span>
+    <hr className='w-[130px] my-2 border-[green] border-t-2 font-bold '/>
+    </div>
+    <div className=' mt-10 '>
+      <span className='text-white text-xl'>VIEW CODE</span>
+    <hr className='w-[100px] my-2 border-[green] border-t-2 font-bold '/>
+    </div>
+    </div>
       </div>
       <div className=' py-5 px-2 '>
-        <h2 className=' text-2xl md:text-2xl lg:text-4xl '>DESIGN PORTFOLIO</h2>
+        <h2 className=' text-2xl md:text-3xl lg:text-4xl '>DESIGN PORTFOLIO</h2>
        <div className='flex flex-row gap-10 py-2'>
         <p>HTML</p>
         <p>CSS</p>
@@ -83,11 +94,22 @@ const Content = () => {
       </div>
       </div>
       <div className='flex flex-col'>
-      <div className='flex justify-center'>
-        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap1}  />
+      <div className='flex justify-center relative'>
+        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] transition object-cover duration-300 ease-in-out hover:shadow-xl ' src={bitmap1}  />
+        <div 
+      className='absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 opacity-0 lg:hover:opacity-100 transition-opacity duration-300 ease-in-out'>
+      <div>
+      <span className=' text-xl text-[green] font-normal '>VIEW PROJECT</span>
+      <hr className='w-[130px] my-2 border-[green] border-t-2 font-bold '/>
+      </div>
+      <div className=' mt-10'>
+      <span className='text-white text-xl '>VIEW CODE</span>
+    <hr className='w-[100px] my-2 border-[green] border-t-2 font-bold '/>
+    </div>
+    </div>
         </div>
         <div className=' py-5 px-2 '>
-        <h2 className=' text-1xl md:text-2xl lg:text-4xl '>E-LEARNING LANDING PAGE</h2>
+        <h2 className=' text-2xl md:text-2xl lg:text-4xl '>E-LEARNING LANDING PAGE</h2>
         <div className='flex flex-row gap-10 py-2'>
           <p>HTML</p>
           <p>CSS</p>
@@ -106,76 +128,100 @@ const Content = () => {
         </div>
         
 </div>
-        <div>
-        <img src={bitmap2} className='w-345 h-253 left-15' />
-        <h2 className=' text-2xl md:text-4xl lg:text-5xl ' >TODO WEB APP</h2>
-        <div>
+<div className='flex flex-col md:flex-row px-3 lg:px-16  gap-3 lg:gap-1 lg:flex-row justify-between'>
+        <div className='flex flex-col'>
+        <div className='flex justify-center'>
+        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] '  src={bitmap2} />
+        </div>
+        <div className=' py-5 px-2 '>
+        <h2 className=' text-2xl md:text-3xl lg:text-4xl ' >TODO WEB APP</h2>
+        <div className='flex flex-row gap-10 py-2'>
           <p>HTML</p>
           <p>CSS</p>
           <p>JAVASCRIPT</p>
         </div>
-        <div>
-        <div>
+        </div>
+        <div className='flex flex-row px-2 gap-10'>
+        <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
-          <hr className='w-[100px] md:w-[340px] my-2 border-[green] border-t-2 font-bold ' />
+          <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
-        <div>
+        <div className='block lg:hidden'>
           <p>VIEW CODE</p>
-          <hr className='w-[100px] md:w-[340px] my-2 border-[green] border-t-2 font-bold ' />
+          <hr className='w-[100px] md:w-[90px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
         </div>
         </div>
-        <div>
-        <img src={bitmap3} className='w-345 h-253 left-15' />
-        <h2 className=' text-2xl md:text-4xl lg:text-5xl '>ENTERTAINMENT WEB APP</h2>
-        <div>
+        <div className='flex flex-col'>
+        <div className='flex justify-center'>
+        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap3}  />
+        </div>
+        <div className=' py-5 px-2 '>
+        <h2 className=' text-2xl md:text-3xl lg:text-4xl '>ENTERTAINMENT WEB APP</h2>
+        <div className='flex flex-row py-2 gap-10'>
           <p>HTML</p>
           <p>CSS</p>
           <p>JAVASCRIPT</p>
         </div>
-        <div>
-        <div>
+        </div>
+        <div className='flex flex-row px-2 gap-10'>
+        <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
           <hr/>
         </div>
-        <div>
+        <div className='block lg:hidden'>
           <p>VIEW CODE</p>
           <hr/>
         </div>
         </div>
         </div >
-        <img src={bitmap4} className='w-345 h-253 left-15' />
-        <h2 className=' text-2xl md:text-4xl lg:text-5xl '>MEMORY GAME</h2>
-        <div>
+        </div>
+        <div className='flex flex-col md:flex-row px-3 lg:px-16  gap-3 lg:gap-1 lg:flex-row justify-between'>
+        <div className='flex flex-col'>
+        <div className='flex justify-center'>
+        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap4} />
+        </div>
+        <div className=' py-5 px-2 '>
+        <h2 className=' text-2xl md:text-3xl lg:text-4xl '>MEMORY GAME</h2>
+        <div className='flex flex-row py-2 gap-10'>
           <p>HTML</p>
           <p>CSS</p>
           <p>JAVASCRIPT</p>
         </div>
-        <div>
-        <div>
+        </div>
+        <div className='flex flex-row px-2 gap-10'>
+        <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
-          <hr className='w-[100px] md:w-[340px] my-2 border-[green] border-t-2 font-bold ' />
+          <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
-        <div>
+        <div className='block lg:hidden'>
           <p>VIEW CODE</p>
-          <hr className='w-[100px] md:w-[340px] my-2 border-[green] border-t-2 font-bold ' />
+          <hr className='w-[100px] md:w-[90px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
         </div>
-        <img src={bitmap5} className='w-345 h-253 left-15' />
-        <h2 className=' text-2xl md:text-4xl lg:text-5xl '>ART GALLERY SHOWCASE</h2>
-        <div>
+        </div>
+        <div className='flex flex-col'>
+        <div className='flex justify-center'>
+        <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap5}  />
+        </div>
+        <div className=' py-5 px-2 '>
+        <h2 className=' text-2xl md:text-3xl lg:text-4xl '>ART GALLERY SHOWCASE</h2>
+        <div className='flex flex-row py-2 gap-10'>
           <p>HTML</p>
           <p>CSS</p>
           <p>JAVASCRIPT</p>
         </div>
-        <div>
-        <div>
-          <p>VIEW PROJECT</p>
-          <hr className='w-[100px] md:w-[340px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
-        <div>
+        <div className='flex flex-row px-2 gap-10'>
+        <div className='block lg:hidden'>
+          <p>VIEW PROJECT</p>
+          <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
+        </div>
+        <div className='block lg:hidden'>
           <p>VIEW CODE</p>
-          <hr className='w-[100px] md:w-[340px] my-2 border-[green] border-t-2 font-bold ' />
+          <hr className='w-[100px] md:w-[90px] my-2 border-[green] border-t-2 font-bold ' />
+        </div>
+        </div>
         </div>
         </div>
         <div>
