@@ -16,24 +16,24 @@ const Footer = () => {
       <div className='flex flex-col lg:flex-row px-0 lg:px-16 lg:justify-between'>
         <div className=' flex flex-col items-center '>
       <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>Contact</h2>
-          <p className=' py-4 w-[300px] md:w-[500px] lg:w-[400px] text-center  '>I woulds love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+          <p className=' py-4 w-[300px] md:w-[500px] lg:w-[400px] text-center  '>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
           </div>
           <div className='flex flex-col  items-justify md:items-center lg:items-end '>
             <div className='flex flex-col justify-center'>
             <div className=' py-8 '>
-              <span className=' ml-10 md:ml-5 lg:ml-5 '>NAME</span>
+              <span className=' ml-14 md:ml-5 lg:ml-5 '>NAME</span>
               <div className='flex justify-center'>
               <hr className=' w-[300px] md:w-[500px] mt-3 '/>
               </div>
             </div>
             <div className=' py-6 '>
-            <span className=' ml-10 md:ml-5 lg:ml-5 '>EMAIL</span>
+            <span className=' ml-14 md:ml-5 lg:ml-5 '>EMAIL</span>
             <div className='flex justify-center'>
               <hr className=' w-[300px] md:w-[500px] mt-3 '/>
               </div>
             </div>
             <div className=' py-6 '>
-            <span className=' ml-10 md:ml-5 lg:ml-5 '>MESSAGE</span>
+            <span className=' ml-14 md:ml-5 lg:ml-5 '>MESSAGE</span>
             <div className='flex justify-center'>
               <hr className=' w-[300px] md:w-[500px] mt-20  '/>
               </div>
