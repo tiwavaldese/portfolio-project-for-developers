@@ -36,7 +36,7 @@ const NavBar = () => {
     <div className='text-white items-center justify-center md:items-start md:absolute lg:absolute flex flex-col gap-8 md:mr-8 md:my-32 py-10 md:py-0 px-0 md:px-8 '>
     <div>
     <h2 className='text-3xl md:text-6xl lg:text-7xl items-center md:items-start w-[300px] md:w-[370px] lg:w-[650px]  font-bold '>Nice to meet you! I’m Adam Keyes.</h2>
-      <hr className='w-[180px] md:w-[340px] lg:w-[410px] border-[green] border-t-2 font-bold ml-14 md:ml-0 lg:ml-32' />
+      <hr className='w-[180px] md:w-[340px] lg:w-[410px] border-[green] border-t-2 font-bold ml-10 md:ml-0 lg:ml-32' />
       </div>
       <p className='w-[300px] md:w-[350px]  '>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
      <div>
