@@ -48,20 +48,27 @@ const Footer = () => {
       <div className='flex flex-col px-0 md:px-32 lg:px-20 mt-7 md:flex-row lg:flex-row justify-center items-center  md:justify-between lg:justify-between '>
         <h2>adamkeyes</h2>
         <div className='flex items-center py-4 md:py-0 lg:py-0 gap-5 justify-center'>
+        <a href="https://github.com/yourusername" aria-label="GitHub">
           <FiGithub  className={`cursor-pointer ${clickedIcon === 'github' ? 'text-green-500' : 'text-white'}`}
         onClick={() => handleIconClick('github')} 
         size={20} />
+        </a>
+        <a href="https://complexshape.com" aria-label="Complex Shape">
           <img src={complexshape} 
         className={`cursor-pointer ${clickedIcon === 'complexshape' ? 'text-green-500' : 'text-white'}`} 
         alt='' 
         onClick={() => handleIconClick('complexshape')} />
+        </a>
+        <a href="https://linkedin.com/in/yourusername" aria-label="LinkedIn">
           <FaLinkedin className={`cursor-pointer ${clickedIcon === 'linkedin' ? 'text-green-500' : 'text-white'}`} 
         onClick={() => handleIconClick('linkedin')} 
-        size={20} 
- />
+        size={20} />
+ </a>
+ <a href="https://twitter.com/yourusername" aria-label="Twitter">
           <FaTwitter  className={`cursor-pointer ${clickedIcon === 'twitter' ? 'text-green-500' : 'text-white'}`} 
         onClick={() => handleIconClick('twitter')} 
         size={20} />
+        </a>
         </div>
       </div>
     </div>
