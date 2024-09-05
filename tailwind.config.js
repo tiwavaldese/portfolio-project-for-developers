@@ -13,6 +13,9 @@ export default {
         'custom-height': '383px',
         'height': '253px',
       },
+      backgroundColor:{
+        'dark-grey': '#141414',
+      },
       inset: {
         'custom-left': '101px',
         'left': '500px',

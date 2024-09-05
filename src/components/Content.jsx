@@ -224,28 +224,7 @@ const Content = () => {
         </div>
         </div>
         </div>
-        <div>
-          <h2 className=' text-2xl md:text-4xl lg:text-5xl '>Contact</h2>
-          <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
-          <div>
-            <div>
-              NAME
-              <hr/>
-            </div>
-            <div>
-              EMAIL
-              <hr/>
-            </div>
-            <div>
-              MESSAGE
-              <hr/>
-            </div>
-            <div>
-             SEND MESSAGE
-              <hr/>
-            </div>
-        </div>
-        </div>
+        
     </div>
   )
 }
