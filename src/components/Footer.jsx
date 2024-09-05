@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className=' px-3 py-10 md:space-x-8 lg:space-x-8 bg-dark-grey '>
       
-      <div className='flex flex-col lg:flex-row px-0 lg:px-16 lg:justify-between'>
+      <div id='contact-form' className='flex flex-col lg:flex-row px-0 lg:px-16 lg:justify-between'>
         <div className=' flex flex-col items-center '>
       <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>Contact</h2>
           <p className=' py-4 w-[300px] md:w-[500px] lg:w-[400px] text-center  '>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
