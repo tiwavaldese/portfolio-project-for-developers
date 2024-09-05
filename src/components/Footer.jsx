@@ -10,7 +10,7 @@ const Footer = () => {
       
       <div className='flex flex-col lg:flex-row px-0 lg:px-16 lg:justify-between'>
         <div className=' flex flex-col items-center '>
-          <h2 clasName=' text-3xl md:text-5xl lg:text-6xl font-bold' >Contact</h2>
+      <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>Contact</h2>
           <p className=' py-4 w-[300px] md:w-[500px] lg:w-[400px] text-center  '>I woulds love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
           </div>
           <div className='flex flex-col  items-justify md:items-center lg:items-end '>

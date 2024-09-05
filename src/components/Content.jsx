@@ -176,7 +176,7 @@ const Content = () => {
         </div>
         </div >
         </div>
-        <div className='flex flex-col md:flex-row px-3 lg:px-16  gap-3 lg:gap-1 lg:flex-row justify-between'>
+        <div className='flex flex-col md:flex-row mb-14 px-3 lg:px-16  gap-3 lg:gap-1 lg:flex-row justify-between'>
         <div className='flex flex-col'>
         <div className='flex justify-center'>
         <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap4} />
