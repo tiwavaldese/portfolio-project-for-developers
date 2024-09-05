@@ -38,9 +38,9 @@ const Footer = () => {
         <div className='flex justify-center'>
         <hr className='w-[300px] md:w-[500px] lg:w-[1110px]  my-2  border-t-2 font-bold '/>
         </div>
-      <div className='flex flex-col md:flex-row lg:flex-row justify-center md:justify-between lg:justify-between '>
+      <div className='flex flex- px-0 md:px-32 lg:px-14 mt-7 md:flex-row lg:flex-row justify-center items-center  md:justify-between lg:justify-between '>
         <h2>adamkeyes</h2>
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center py-4 md:py-0 lg:py-0 gap-5 justify-center'>
           <FiGithub />
           <img src={complexshape} className='text-black' alt='' />
           <FaLinkedin />
