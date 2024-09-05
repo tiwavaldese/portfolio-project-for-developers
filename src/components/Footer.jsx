@@ -19,6 +19,7 @@ const Footer = () => {
           <p className=' py-4 w-[300px] md:w-[500px] lg:w-[400px] text-center  '>I woulds love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
           </div>
           <div className='flex flex-col  items-justify md:items-center lg:items-end '>
+            <div className='flex flex-col justify-center'>
             <div className=' py-8 '>
               <span className=' ml-3 '>NAME</span>
               <hr className=' w-[300px] md:w-[500px] mt-3 '/>
@@ -31,6 +32,7 @@ const Footer = () => {
             <div className=' py-6 '>
             <span className=' ml-3 '>MESSAGE</span>
               <hr className=' w-[300px] md:w-[500px] mt-20  '/>
+            </div>
             </div>
             <div className='flex flex-col items-end justify-end py-8 ml-0 md:ml-96 '>
              SEND MESSAGE
