@@ -47,7 +47,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='flex flex-col items-justify md:items-center lg:items-end'>
+    <div id='contact-form' className='flex flex-col items-justify md:items-center lg:items-end'>
       <form onSubmit={handleSubmit} className='flex flex-col justify-center'>
         <div className='py-8'>
           <span className='ml-14 md:ml-5 lg:ml-5'>NAME</span>

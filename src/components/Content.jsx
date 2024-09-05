@@ -53,7 +53,7 @@ const Content = () => {
       <div className='flex flex-row px-14 md:px-2 lg:px-16 py-20 gap-20  md:gap-0 lg:gap-0 justify-between '>
         <h2 className='flex  text-2xl md:text-5xl lg:text-6xl font-bold'>Projects</h2>
         <div className=' '>
-        <h2>CONTACT ME</h2>
+        <button  onClick={() => document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })} >CONTACT ME</button>
         <div>
         <hr className='border-[green] mt-2 border-t-2 '/>
         </div>

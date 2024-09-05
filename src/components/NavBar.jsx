@@ -40,7 +40,9 @@ const NavBar = () => {
       </div>
       <p className='w-[300px] md:w-[350px]  '>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
      <div>
-      <h2 className='text-white lg:text-[green] font-normal lg:font-bold '>CONTACT ME</h2>
+      <button className='text-white lg:text-[green] font-normal lg:font-bold '
+       onClick={() => document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })}
+      >CONTACT ME</button>
       <hr className='border-[green] border-t-2 mt-2 '/>
       </div>
       </div>
