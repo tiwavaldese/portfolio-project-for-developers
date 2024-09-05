@@ -56,7 +56,7 @@ const ContactForm = () => {
             name='name'
             value={formData.name}
             onChange={handleChange}
-            className='block w-[300px] md:w-[500px] mt-3 border'
+            className='block w-[300px] md:w-[500px] mt-3 border  mx-auto'
           />
           {errors.name && <p className="text-red-500">{errors.name}</p>}
         </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
             name='email'
             value={formData.email}
             onChange={handleChange}
-            className='block w-[300px] md:w-[500px] mt-3 border'
+            className='block w-[300px] md:w-[500px] mt-3 border  mx-auto'
           />
           {errors.email && <p className="text-red-500">{errors.email}</p>}
         </div>
@@ -79,7 +79,7 @@ const ContactForm = () => {
             name='message'
             value={formData.message}
             onChange={handleChange}
-            className='block w-[300px] md:w-[500px] mt-3 border h-[100px]'
+            className='block w-[300px] md:w-[500px] mt-3 border h-[100px]  mx-auto'
           />
           {errors.message && <p className="text-red-500">{errors.message}</p>}
         </div>
