@@ -3,6 +3,7 @@ import './index.css';
 import NavBar from './components/NavBar'
 import Content from './components/Content';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <NavBar/>
       <Content/>
       <Footer/>
+      
     </div>
   )
 }

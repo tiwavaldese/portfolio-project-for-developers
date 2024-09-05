@@ -85,7 +85,7 @@ const ContactForm = () => {
         </div>
         
         <div className='flex flex-col items-center justify-center py-8 ml-44 md:ml-96'>
-          <button type="submit" className='text-green-500'>
+          <button type="submit" className=''>
             SEND MESSAGE
           </button>
           <hr className='w-[120px] my-2 border-[green] border-t-2 font-bold'/>

@@ -3,6 +3,7 @@ import { FiGithub } from 'react-icons/fi';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import complexshape from '../assets/complexshape.png'
+import ContactForm from './ContactForm';
 
 const Footer = () => {
   const [clickedIcon, setClickedIcon] = useState(null);
@@ -20,31 +21,9 @@ const Footer = () => {
           </div>
           <div className='flex flex-col  items-justify md:items-center lg:items-end '>
             <div className='flex flex-col justify-center'>
-            <div className=' py-8 '>
-              <span className=' ml-14 md:ml-5 lg:ml-5 '>NAME</span>
-              <div className='flex justify-center'>
-              <hr className=' w-[300px] md:w-[500px] mt-3 '/>
-              </div>
+            
             </div>
-            <div className=' py-6 '>
-            <span className=' ml-14 md:ml-5 lg:ml-5 '>EMAIL</span>
-            <div className='flex justify-center'>
-              <hr className=' w-[300px] md:w-[500px] mt-3 '/>
-              </div>
-            </div>
-            <div className=' py-6 '>
-            <span className=' ml-14 md:ml-5 lg:ml-5 '>MESSAGE</span>
-            <div className='flex justify-center'>
-              <hr className=' w-[300px] md:w-[500px] mt-20 ml '/>
-              </div>
-            </div>
-            </div>
-            <div className='flex flex-col items-center justify-center py-8 ml-44 md:ml-96 '>
-             SEND MESSAGE
-             <div className='flex justify-center'>
-              <hr className='w-[120px]  my-2 border-[green] border-t-2 font-bold '/>
-            </div>
-            </div>
+            <ContactForm/>
         </div>
         </div>
         <div className='flex justify-center'>
