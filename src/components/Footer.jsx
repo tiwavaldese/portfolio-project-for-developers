@@ -35,13 +35,13 @@ const Footer = () => {
             <div className=' py-6 '>
             <span className=' ml-14 md:ml-5 lg:ml-5 '>MESSAGE</span>
             <div className='flex justify-center'>
-              <hr className=' w-[300px] md:w-[500px] mt-20  '/>
+              <hr className=' w-[300px] md:w-[500px] mt-20 ml '/>
               </div>
             </div>
             </div>
-            <div className='flex flex-col items-end justify-end py-8 ml-0 md:ml-96 '>
+            <div className='flex flex-col items-center justify-center py-8 ml-44 md:ml-96 '>
              SEND MESSAGE
-             <div className='flex justify-end'>
+             <div className='flex justify-center'>
               <hr className='w-[120px]  my-2 border-[green] border-t-2 font-bold '/>
             </div>
             </div>
