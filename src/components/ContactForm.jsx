@@ -58,7 +58,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className='block w-[300px] md:w-[500px] mt-3 border  mx-auto bg-black'
           />
-          {errors.name && <p className="text-red-500">{errors.name}</p>}
+          {errors.name && <p className="text-red-500 text-center">{errors.name}</p>}
         </div>
         
         <div className='py-6'>
@@ -70,7 +70,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className='block w-[300px] md:w-[500px] mt-3 border  mx-auto bg-black'
           />
-          {errors.email && <p className="text-red-500">{errors.email}</p>}
+          {errors.email && <p className="text-red-500 text-center">{errors.email}</p>}
         </div>
         
         <div className='py-6'>
@@ -81,7 +81,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className='block w-[300px] md:w-[500px] mt-3 border h-[100px]  mx-auto bg-black'
           />
-          {errors.message && <p className="text-red-500">{errors.message}</p>}
+          {errors.message && <p className="text-red-500 text-center">{errors.message}</p>}
         </div>
         
         <div className='flex flex-col items-center justify-center py-8 ml-44 md:ml-96'>
