@@ -75,14 +75,14 @@ const Content = () => {
     </div>
     </div>
       </div>
-      <div className=' py-5 px-2 '>
+      <div className=' py-5 px-2 flex flex-col items-center md:items-start lg:items-start '>
         <h2 className=' text-2xl md:text-3xl lg:text-4xl '>DESIGN PORTFOLIO</h2>
        <div className='flex flex-row gap-10 py-2'>
         <p>HTML</p>
         <p>CSS</p>
         </div>
       </div>
-      <div className='flex flex-row gap-10 px-2 ' >
+      <div className='flex flex-row gap-10 px-2 items-center md:items-start lg:items-start justify-center md:justify-start' >
         <div className='block lg:hidden'>
         <p>VIEW PROJECT</p>
         <hr className='w-[100px]  md:w-[100px] my-2 border-[green] border-t-2 font-bold ' />
@@ -108,14 +108,14 @@ const Content = () => {
     </div>
     </div>
         </div>
-        <div className=' py-5 px-2 '>
+        <div className=' py-5 px-2 flex flex-col items-center md:items-start lg:items-start '>
         <h2 className=' text-2xl md:text-2xl lg:text-4xl '>E-LEARNING LANDING PAGE</h2>
         <div className='flex flex-row gap-10 py-2'>
           <p>HTML</p>
           <p>CSS</p>
         </div>
         </div>
-        <div className='flex flex-row px-2 gap-10'>
+        <div className='flex flex-row px-2 gap-10  items-center md:items-start lg:items-start justify-center md:justify-start'>
         <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
           <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
@@ -133,7 +133,7 @@ const Content = () => {
         <div className='flex justify-center'>
         <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] '  src={bitmap2} />
         </div>
-        <div className=' py-5 px-2 '>
+        <div className=' py-5 px-2 flex flex-col items-center md:items-start lg:items-start '>
         <h2 className=' text-2xl md:text-3xl lg:text-4xl ' >TODO WEB APP</h2>
         <div className='flex flex-row gap-10 py-2'>
           <p>HTML</p>
@@ -141,7 +141,7 @@ const Content = () => {
           <p>JAVASCRIPT</p>
         </div>
         </div>
-        <div className='flex flex-row px-2 gap-10'>
+        <div className='flex flex-row px-2 gap-10  items-center md:items-start lg:items-start justify-center md:justify-start'>
         <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
           <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
@@ -156,7 +156,7 @@ const Content = () => {
         <div className='flex justify-center'>
         <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap3}  />
         </div>
-        <div className=' py-5 px-2 '>
+        <div className=' py-5 px-2 flex flex-col items-center md:items-start lg:items-start '>
         <h2 className=' text-2xl md:text-3xl lg:text-4xl '>ENTERTAINMENT WEB APP</h2>
         <div className='flex flex-row py-2 gap-10'>
           <p>HTML</p>
@@ -164,14 +164,14 @@ const Content = () => {
           <p>JAVASCRIPT</p>
         </div>
         </div>
-        <div className='flex flex-row px-2 gap-10'>
+        <div className='flex flex-row px-2 gap-10  items-center md:items-start lg:items-start justify-center md:justify-start'>
         <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
-          <hr/>
+          <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
         <div className='block lg:hidden'>
           <p>VIEW CODE</p>
-          <hr/>
+          <hr className='w-[100px] md:w-[90px] my-2 border-[green] border-t-2 font-bold ' />
         </div>
         </div>
         </div >
@@ -181,7 +181,7 @@ const Content = () => {
         <div className='flex justify-center'>
         <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap4} />
         </div>
-        <div className=' py-5 px-2 '>
+        <div className=' py-5 px-2 flex flex-col items-center md:items-start lg:items-start '>
         <h2 className=' text-2xl md:text-3xl lg:text-4xl '>MEMORY GAME</h2>
         <div className='flex flex-row py-2 gap-10'>
           <p>HTML</p>
@@ -189,7 +189,7 @@ const Content = () => {
           <p>JAVASCRIPT</p>
         </div>
         </div>
-        <div className='flex flex-row px-2 gap-10'>
+        <div className='flex flex-row px-2 gap-10  items-center md:items-start lg:items-start justify-center md:justify-start'>
         <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
           <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
@@ -204,7 +204,7 @@ const Content = () => {
         <div className='flex justify-center'>
         <img className=' w-[300px] md:w-[350px] lg:w-[540px] h-[253px] lg:h-[400px] ' src={bitmap5}  />
         </div>
-        <div className=' py-5 px-2 '>
+        <div className=' py-5 px-2 flex flex-col items-center md:items-start lg:items-start '>
         <h2 className=' text-2xl md:text-3xl lg:text-4xl '>ART GALLERY SHOWCASE</h2>
         <div className='flex flex-row py-2 gap-10'>
           <p>HTML</p>
@@ -212,7 +212,7 @@ const Content = () => {
           <p>JAVASCRIPT</p>
         </div>
         </div>
-        <div className='flex flex-row px-2 gap-10'>
+        <div className='flex flex-row px-2 gap-10  items-center md:items-start lg:items-start justify-center md:justify-start'>
         <div className='block lg:hidden'>
           <p>VIEW PROJECT</p>
           <hr className='w-[100px] md:w-[110px] my-2 border-[green] border-t-2 font-bold ' />
