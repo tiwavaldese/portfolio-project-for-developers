@@ -50,7 +50,7 @@ const Content = () => {
       < div className='flex justify-center '>
       < hr className='w-[300px]  block md:hidden lg:hidden' />
       </div>
-      <div className='flex flex-row px-6 md:px-2 lg:px-16 py-20 gap-20  md:gap-0 lg:gap-0 justify-between '>
+      <div className='flex flex-row px-14 md:px-2 lg:px-16 py-20 gap-20  md:gap-0 lg:gap-0 justify-between '>
         <h2 className='flex  text-2xl md:text-5xl lg:text-6xl font-bold'>Projects</h2>
         <div className=' '>
         <h2>CONTACT ME</h2>

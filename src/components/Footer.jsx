@@ -21,17 +21,22 @@ const Footer = () => {
           <div className='flex flex-col  items-justify md:items-center lg:items-end '>
             <div className='flex flex-col justify-center'>
             <div className=' py-8 '>
-              <span className=' ml-3 '>NAME</span>
+              <span className=' ml-5 '>NAME</span>
+              <div className='flex justify-center'>
               <hr className=' w-[300px] md:w-[500px] mt-3 '/>
+              </div>
             </div>
             <div className=' py-6 '>
-            <span className=' ml-3 '>EMAIL</span>
-
+            <span className=' ml-5 '>EMAIL</span>
+            <div className='flex justify-center'>
               <hr className=' w-[300px] md:w-[500px] mt-3 '/>
+              </div>
             </div>
             <div className=' py-6 '>
-            <span className=' ml-3 '>MESSAGE</span>
+            <span className=' ml-5 '>MESSAGE</span>
+            <div className='flex justify-center'>
               <hr className=' w-[300px] md:w-[500px] mt-20  '/>
+              </div>
             </div>
             </div>
             <div className='flex flex-col items-end justify-end py-8 ml-0 md:ml-96 '>
