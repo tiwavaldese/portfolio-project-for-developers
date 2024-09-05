@@ -48,19 +48,19 @@ const Content = () => {
 </div>
 
       < div className='flex justify-center '>
-      < hr className='w-[300px] block md:hidden lg:hidden' />
+      < hr className='w-[300px]  block md:hidden lg:hidden' />
       </div>
-      <div className='flex flex-row px-20 py-20 gap-10 md:gap-72 justify-evenly '>
-        <h2 className='flex text-start text-2xl md:text-4xl lg:text-5xl font-bold'>Projects</h2>
-        <div className=' text-end '>
+      <div className='flex flex-row px-3 md:px-2 lg:px-16 py-20 gap-20  md:gap-0 lg:gap-0 justify-between '>
+        <h2 className='flex  text-2xl md:text-5xl lg:text-6xl font-bold'>Projects</h2>
+        <div className=' '>
         <h2>CONTACT ME</h2>
         <div>
-        <hr/>
+        <hr className='border-[green] mt-2 border-t-2 '/>
         </div>
         </div>
         </div>
-        <div className='w-[345] h-[253] left-[15]'>
-        <img src={bitmap}/>
+        <div className='flex justify-center '>
+        <img className=' w-[300px] h-[253px] ' src={bitmap}/>
       </div>
       <div>
         <h2>DESIGN PORTFOLIO</h2>
@@ -71,7 +71,7 @@ const Content = () => {
       </div>
       <div>
         <div>
-        <p>VIEW PROJEC</p>
+        <p>VIEW PROJECT</p>
         <hr/>
         </div>
         <div>
